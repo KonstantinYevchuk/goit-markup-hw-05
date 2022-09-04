@@ -361,9 +361,8 @@ p {
   fill: var(--logo-clients);
 
   transition-property: fill, background-color, border-radius;
-  transition-duration: 250ms, 250ms, 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-team:hover,
 .social-link-team:focus {
@@ -401,9 +400,8 @@ p {
   fill: var(--logo-clients);
 
   transition-property: fill, border-color;
-  transition-duration: 250ms, 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-clients:hover,
 .link-clients:focus {
@@ -508,9 +506,8 @@ p {
   background-color: var(--backdrop);
 
   transition-property: opacity, visibility, pointer-events;
-  transition-duration: 250ms, 250ms, 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-studio {
   position: absolute;
@@ -578,9 +575,8 @@ p {
   cursor: pointer;
 
   transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms, 250ms, 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-list .button-item:hover,
 .button-list .button-item:focus {
